@@ -35,11 +35,13 @@ console.log(typeof idade)
  let carro = prompt("Você tem carro? Sim/Não")
  let chocolate = prompt("Você gosta de chocolate? Sim/Não")
 
- let rCachorro = (cachorro ==="Sim")
- let rCarro = (carro === "Sim")
- let rChocolate = (chocolate === "Sim")
+ let rCachorro = cachorro 
+ let rCarro = carro
+ let rChocolate = chocolate
 
- console.log(rCachorro, rCarro, rChocolate)
+ console.log("Você tem cachorro?", rCachorro)
+ console.log("Você tem carro?", rCarro)
+ console.log("Você gosta de chocolate?", rChocolate)
 
  //Exercicio 3.3
 let a = 10
